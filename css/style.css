@@ -1,0 +1,55 @@
+/*Web Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*Custom Variables/ Colors*/
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+
+    --clr-light-gray: hsl(212, 45%, 89%);
+
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+
+    --clr-dark-blue: hsl(218, 44%, 22%);
+}
+	
+/*Desktop*/
+/*Tested at 1440x900px*/
+
+
+body  {background-color: var(--clr-light-gray);}
+
+.card {background-color: var(--clr-white);
+       font-family: "Outfit", sans-serif;
+       width: 21rem;
+       margin-inline: auto;
+       border-radius: 1rem;
+       text-align: center;
+       margin-top: 5rem;}
+
+.card img {border-radius: 1rem;
+           margin: 1rem;
+           width: calc(21rem - 2rem);}
+
+.card h1 {padding-inline: 2rem;
+          margin-top: 0;
+		  font-weight: 700;
+          color: var(--clr-dark-blue);}
+
+.card p {font-size: 15px;
+   	     color: var(--clr-grayish-blue);
+         padding-inline: 2.3rem;
+         padding-bottom: 2.5rem;}
+
+.attribution {
+    font-size: 15px; text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {color: var(--clr-dark-blue);}
+
+/*Mobile*/
+/*Tested at 375x667px*/
+@media screen and (max-width: 375px)
+{
+	
+}
