@@ -14,8 +14,6 @@
 	
 /*Desktop*/
 /*Tested at 1440x900px*/
-
-
 body  {background-color: var(--clr-light-gray);}
 
 .card {background-color: var(--clr-white);
@@ -46,10 +44,3 @@ body  {background-color: var(--clr-light-gray);}
 }
 
 .attribution a {color: var(--clr-dark-blue);}
-
-/*Mobile*/
-/*Tested at 375x667px*/
-@media screen and (max-width: 375px)
-{
-	
-}
