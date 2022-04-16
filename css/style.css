@@ -45,3 +45,9 @@ body  {background-color: var(--clr-light-gray);}
 }
 
 .attribution a {color: var(--clr-dark-blue);}
+
+/*Mobile*/
+/*Tested at 375x667px*/
+@media screen and (max-width: 375px) {
+	.card {margin-top: 0;}
+}
